@@ -1,0 +1,263 @@
+/** {
+	outline: 1px black dotted;
+}*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	margin: 0 0 0 0;
+	background: red;
+}
+#container {
+	background: white;
+}
+
+/*header {
+	background: white;
+}*/
+
+header #header1 {
+	padding: 10px;
+	min-height: 70px;
+	background: rgb(48,48,48);
+}
+#header1 img {
+	float: left;
+}
+#header1 ul {
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+#header1 li {
+	display: inline-block;	
+	padding: 10px;
+}
+
+#header1 a {
+	text-transform: uppercase;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+}
+
+#header1 #box1 a {
+	background: black;
+	padding: 10px 20px 10px 20px;
+	border: 2px white solid;
+	color: white;
+	font-family: sans-serif;
+	margin-right: -25px;
+}
+
+#header1 #box2 a {
+	background: blue;
+	padding: 10px 20px 10px 20px;
+	border: 2px white solid;
+	border-left: 0;
+	font-family: sans-serif;
+	color: white;
+	margin: 0;
+}
+
+#header2 {
+	clear: both;
+	background: url(images/postwire.png);
+	min-height: 500px;
+	position: relative;
+}
+
+#header2 h2 {
+	position: absolute;
+	top: 45px;
+	left: 150px;
+	font-size: 48px;
+	line-height: 1.2em;
+	color: white;
+	font-family: sans-serif;
+	text-shadow: 0px 2px 3px #797979;
+}
+
+#header2 p {
+	position: absolute;
+	top: 190px;
+	left: 150px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	text-shadow: 0px 2px 3px #636363;
+	width: 500px;
+}
+
+#header2 a {
+	position: absolute;
+	top: 340px;
+	left: 150px;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	border: 2px white solid;
+	font-family: sans-serif;
+	padding: 10px 10px;
+	background: #3ACB36;
+	font-weight: bold;
+
+}
+
+#header3 {
+	border-top: 10px white solid;
+	position: relative;
+	top: -25px;
+	background: #498999;
+	min-height: 75px;
+}
+
+#header3 h2 {
+	margin-left: 350px;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;	
+	font-family: sans-serif;
+}
+
+#header3 img {
+	float: left;
+	position: relative;
+	top: -15px;
+	left: 220px;
+}
+
+#header3 a {
+	position: absolute;
+	top: 10px;
+	right: 200px;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px white solid;
+	font-family: sans-serif;
+	padding: 10px 20px;
+	background: #3ACB36;
+	text-transform: uppercase;
+}
+
+
+#sales {
+	position: relative;
+	top: -40px;
+	clear: both;
+	background: #98994E;
+}
+
+#sales #header4 {
+	float:left;
+}
+#sales #header4 h2 {
+	position: absolute;
+	font-family: sans-serif;
+	left: 150px;
+	top: 70px;
+	font-size: 30px;
+}
+#sales #header4 p {
+	position: absolute;
+	font-family: sans-serif;
+	left: 150px;
+	top: 125px;
+	width: 330px;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+#sales #header5 {
+	float:right;
+}
+#sales #header5 img {
+	margin-right: 30px;
+	margin-top: 30px;
+}
+#bar {
+	clear: both;
+	background: #BADAE0;
+	height: 50px;
+}
+#customers {
+	clear: both;
+	padding-top: 20px;
+	position: relative;
+	background: #EDEDED;
+	min-height: 300px;
+}
+#customers h3 {
+	display: inline-block;
+	float: left;
+	position: absolute;
+	font-size: 16px;
+	top: -45px;
+	padding: 10px;
+	color: #546274;
+	background: #EDEDED;
+	width: 400px;
+	text-transform: uppercase;
+  left: 500px;
+	text-align: center;
+}
+
+.customer {
+	text-align: center;
+	position: relative;
+	left: 140px;
+	float: left;
+	width: 333px;
+	background: #FAFAFA;
+	margin: 20px;
+	box-shadow: 10px 10px 0px #BADAE0;
+	border: 1px #BADAE0 solid;
+}
+
+#salesforce {
+	clear: both;
+	background: #996D63;
+}
+
+#sales1 {
+	float: left;
+}
+
+#sales2 {
+	float: left;
+}
+
+#action {
+	position: relative;
+	clear: both;
+	background: #3696FB;
+	padding: 40px 20px 20px 20px;
+	min-height: 200px;
+}
+
+.action {
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	left: 140px;
+	float: left;
+	width: 370px;
+	background: #FAFAFA;
+}
+
+.action img {
+	position: relative;
+	margin-top: -40px;
+}
+
+footer {
+	clear: both;
+	background: #5D998E;
+}
